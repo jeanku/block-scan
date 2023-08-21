@@ -16,7 +16,7 @@ type EthScan struct {
 }
 
 func NewEthScan() (*EthScan, error) {
-	client, err := NewEthClient("https://goerli.infura.io/v3/****")
+	client, err := NewEthClient("https://goerli.infura.io/v3/6c5e7022939547d68f0825405b7f3186")
 	if err != nil {
 		return nil, err
 	}
